@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_laliga"
+        android:title="La Liga"
+        android:icon="@mipmap/ic_laliga"/>
+
+    <item
+        android:id="@+id/nav_ligue1"
+        android:title="Ligue 1"
+        android:icon="@mipmap/ic_ligue1"
+        />
+
+    <item android:id="@+id/nav_premierleague"
+        android:title="Premier League"
+        android:icon="@mipmap/ic_premierleague"/>
+
+    <item android:id="@+id/nav_seriea"
+        android:title="Serie A"
+        android:icon="@mipmap/ic_seriea"/>
+</menu>

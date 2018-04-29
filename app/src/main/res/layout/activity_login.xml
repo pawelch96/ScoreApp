@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.sforum.LoginActivity"
+    android:background="@drawable/bg"
+    >
+
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/sintony"
+        android:text="Choose league"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="42sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/laliga_button"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/laliga"
+                android:layout_marginLeft="8dp"/>
+
+            <Button
+                android:id="@+id/ligue1_button"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/ligue1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="16dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/premierleague_button"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/premierleague" />
+
+            <Button
+                android:id="@+id/seriea_button"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/seriea"
+                android:layout_marginTop="16dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+
